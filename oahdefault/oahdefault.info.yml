@@ -1,0 +1,55 @@
+## YAML Template.
+---
+name: oahdefault
+type: profile
+description: 'Standard Installation of OAH-Health.'
+core: 8.x
+
+# Optional: Declare your installation profile as a distribution
+# This will make the installer auto-select this installation profile.
+# The distribution_name property is used in the installer and other places as
+# a label for the software being installed.
+distribution:
+  name: OAH-Health
+
+# Required modules and themes
+dependencies:
+  - node
+  - history
+  - block
+  - block_content
+  - breakpoint
+  - color
+  - config
+  - comment
+  - contextual
+  - contact
+  - quickedit
+  - help
+  - image
+  - options
+  - path
+  - taxonomy
+  - dblog
+  - search
+  - shortcut
+  - toolbar
+  - field_ui
+  - file
+  - rdf
+  - views
+  - views_ui
+  - editor
+  - ckeditor
+  - oah
+  - coffee
+  - devel
+  - entity_print
+  - field_collection
+  - field_permissions
+  - google_qr_code
+  - interval
+  - menu_item_visibility
+  - merci
+  - printable
+  - bootstrap
