@@ -1,5 +1,3 @@
-## YAML Template.
----
 name: oahdefault
 type: profile
 description: 'Standard Installation of OAH-Health.'
@@ -12,35 +10,8 @@ core: 8.x
 distribution:
   name: OAH-Health
 
-# Required modules and themes
+# Required modules and themes. The ones included in the standard profile have not been added here.
 dependencies:
-  - node
-  - history
-  - block
-  - block_content
-  - breakpoint
-  - color
-  - config
-  - comment
-  - contextual
-  - contact
-  - quickedit
-  - help
-  - image
-  - options
-  - path
-  - taxonomy
-  - dblog
-  - search
-  - shortcut
-  - toolbar
-  - field_ui
-  - file
-  - rdf
-  - views
-  - views_ui
-  - editor
-  - ckeditor
   - oah
   - coffee
   - devel
@@ -52,4 +23,5 @@ dependencies:
   - menu_item_visibility
   - merci
   - printable
+  themes:
   - bootstrap
